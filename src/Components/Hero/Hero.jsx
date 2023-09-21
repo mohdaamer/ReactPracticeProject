@@ -5,7 +5,7 @@ import {BsSearch} from 'react-icons/bs'
 
 const Hero = () => {
   return (
-    <div className='w-full bg-white py-24'>
+    <div className='w-full bg-white md:py-24 py-9'>
         <div className="container md:max-w-[1200px] m-auto grid md:grid-cols-2 max-w-[400px] px-6">
 
             {/* Left  */}
