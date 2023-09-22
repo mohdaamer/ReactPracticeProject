@@ -1,3 +1,5 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +11,13 @@ html,body{
   font-family: 'poppins', sans-serif;
 }
 
+.slick-arrow:before, .slick-prev:before{
+  color: black;
+  font-size: 40px;
+}
+.slick-prev{
+  z-index: 999;
+}
 .primaryText{
   color: #20B486;
 }
